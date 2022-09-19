@@ -60,7 +60,7 @@ void printTicket() {
   Serial.println (" " );
   Serial.println (" " );
   Serial.println (" " );
-  Serial.println ("Marques de la Concordia " );
+  Serial.println ("XXXXXXX " );
   Serial.write (0x12); // send HEX code to printer to print DATE and TIME
   Serial.print ("Lecturas : " );
   Serial.println (countValues - 1);
